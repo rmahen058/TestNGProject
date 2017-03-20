@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="228" started-at="2017-03-20T22:53:16Z" finished-at="2017-03-20T22:53:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="228" started-at="2017-03-20T22:53:16Z" finished-at="2017-03-20T22:53:16Z">
+      <class name="com.rakesh.testng.training.testcases.ParameterizationTestNGConcept">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:com.rakesh.testng.training.testcases.ParameterizationTestNGConcept@5056dfcb]" name="signUp" duration-ms="28" started-at="2017-03-20T17:53:16Z" data-provider="getData" finished-at="2017-03-20T17:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uName3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pWord3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[34567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:com.rakesh.testng.training.testcases.ParameterizationTestNGConcept@5056dfcb]" name="signUp" duration-ms="18" started-at="2017-03-20T17:53:16Z" data-provider="getData" finished-at="2017-03-20T17:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uName2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pWord2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:com.rakesh.testng.training.testcases.ParameterizationTestNGConcept@5056dfcb]" name="signUp" duration-ms="22" started-at="2017-03-20T17:53:16Z" data-provider="getData" finished-at="2017-03-20T17:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pWord1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="formFill(java.lang.String, java.lang.String)[pri:2, instance:com.rakesh.testng.training.testcases.ParameterizationTestNGConcept@5056dfcb]" name="formFill" duration-ms="1" started-at="2017-03-20T17:53:16Z" data-provider="getData1" finished-at="2017-03-20T17:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bentonville]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arkansas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFill -->
+        <test-method status="PASS" signature="formFill(java.lang.String, java.lang.String)[pri:2, instance:com.rakesh.testng.training.testcases.ParameterizationTestNGConcept@5056dfcb]" name="formFill" duration-ms="1" started-at="2017-03-20T17:53:16Z" data-provider="getData1" finished-at="2017-03-20T17:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFill -->
+      </class> <!-- com.rakesh.testng.training.testcases.ParameterizationTestNGConcept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

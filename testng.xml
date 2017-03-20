@@ -1,0 +1,19 @@
+<suite name = "Testcase Suite" parallel = "tests" >
+	<test name = "Annotations Test" allow-return-values = "false" >
+		<classes>
+			<class name = "com.rakesh.testng.training.testcases.AnnotationTestNGConcepts" />
+		</classes>
+	</test>
+	
+	<test name = "Assertions Test" allow-return-values = "false" >
+		<classes>
+			<class name = "com.rakesh.testng.training.testcases.AssertionsTestNGConcepts" />
+		</classes>
+	</test>
+	
+	<test name = "Parameterization Test" allow-return-values = "false" >
+		<classes>
+			<class name = "com.rakesh.testng.training.testcases.ParameterizationTestNGConcept" />
+		</classes>
+	</test>
+</suite>
