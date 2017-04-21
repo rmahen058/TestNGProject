@@ -60,7 +60,7 @@ public class Task1_Get_All_Planets extends RestAPITester {
 
 	}
 
-	@Test(priority = 3, dependsOnMethods = "Auto_SWAPI_GET_Base_Test_001")
+	//@Test(priority = 3, dependsOnMethods = "Auto_SWAPI_GET_Base_Test_001")
 	public static void Auto_SWAPI_GET_ALL_Test_004()
 			throws ClientProtocolException, IOException, ParseException, JSONException {
 		String[] expAttributes = { "films", "edited", "created", "climate", "rotation_period", "url", "population",
