@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SWAPI Suite">
-  <test name="Test SWAPI">
-  </test> <!-- Test SWAPI -->
+	<test name="Test SWAPI">
+		<classes>
+			<class name="com.swapi.tests.Task1_Get_All_Planets.java" />
+			<class name="com.swapi.tests.Task1_Get_Planets_By_ID.java" />
+			<class name="com.swapi.tests.Task2.java" />
+		</classes>
+	</test> <!-- Test SWAPI -->
 </suite> <!-- SWAPI Suite -->
