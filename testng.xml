@@ -1,19 +1,6 @@
-<suite name = "Testcase Suite" parallel = "tests" >
-	<test name = "Annotations Test" allow-return-values = "false" >
-		<classes>
-			<class name = "com.rakesh.testng.training.testcases.AnnotationTestNGConcepts" />
-		</classes>
-	</test>
-	
-	<test name = "Assertions Test" allow-return-values = "false" >
-		<classes>
-			<class name = "com.rakesh.testng.training.testcases.AssertionsTestNGConcepts" />
-		</classes>
-	</test>
-	
-	<test name = "Parameterization Test" allow-return-values = "false" >
-		<classes>
-			<class name = "com.rakesh.testng.training.testcases.ParameterizationTestNGConcept" />
-		</classes>
-	</test>
-</suite>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SWAPI Suite">
+  <test name="Test SWAPI">
+  </test> <!-- Test SWAPI -->
+</suite> <!-- SWAPI Suite -->

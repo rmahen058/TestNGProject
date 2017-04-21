@@ -1,123 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="228" started-at="2017-03-20T22:53:16Z" finished-at="2017-03-20T22:53:16Z">
+  <suite name="Default suite" duration-ms="40290" started-at="2017-04-21T09:46:57Z" finished-at="2017-04-21T09:47:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="228" started-at="2017-03-20T22:53:16Z" finished-at="2017-03-20T22:53:16Z">
-      <class name="com.rakesh.testng.training.testcases.ParameterizationTestNGConcept">
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:com.rakesh.testng.training.testcases.ParameterizationTestNGConcept@5056dfcb]" name="signUp" duration-ms="28" started-at="2017-03-20T17:53:16Z" data-provider="getData" finished-at="2017-03-20T17:53:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[uName3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pWord3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Safari]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[34567]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="40290" started-at="2017-04-21T09:46:57Z" finished-at="2017-04-21T09:47:37Z">
+      <class name="com.swapi.tests.Task2">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Planets()[pri:0, instance:com.swapi.tests.Task2@5f375618]" name="Auto_SWAPI_GET_ALL_Planets" duration-ms="40271" started-at="2017-04-21T04:46:57Z" finished-at="2017-04-21T04:47:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:com.rakesh.testng.training.testcases.ParameterizationTestNGConcept@5056dfcb]" name="signUp" duration-ms="18" started-at="2017-03-20T17:53:16Z" data-provider="getData" finished-at="2017-03-20T17:53:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[uName2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pWord2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Mozilla]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[23456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:com.rakesh.testng.training.testcases.ParameterizationTestNGConcept@5056dfcb]" name="signUp" duration-ms="22" started-at="2017-03-20T17:53:16Z" data-provider="getData" finished-at="2017-03-20T17:53:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[uName1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pWord1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="formFill(java.lang.String, java.lang.String)[pri:2, instance:com.rakesh.testng.training.testcases.ParameterizationTestNGConcept@5056dfcb]" name="formFill" duration-ms="1" started-at="2017-03-20T17:53:16Z" data-provider="getData1" finished-at="2017-03-20T17:53:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bentonville]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Arkansas]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- formFill -->
-        <test-method status="PASS" signature="formFill(java.lang.String, java.lang.String)[pri:2, instance:com.rakesh.testng.training.testcases.ParameterizationTestNGConcept@5056dfcb]" name="formFill" duration-ms="1" started-at="2017-03-20T17:53:16Z" data-provider="getData1" finished-at="2017-03-20T17:53:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dallas]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Texas]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- formFill -->
-      </class> <!-- com.rakesh.testng.training.testcases.ParameterizationTestNGConcept -->
+        </test-method> <!-- Auto_SWAPI_GET_ALL_Planets -->
+      </class> <!-- com.swapi.tests.Task2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
