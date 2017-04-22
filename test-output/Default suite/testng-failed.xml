@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.swapi.tests.Task1_Get_Planets_By_ID">
+      <class name="com.swapi.tests.Task2">
         <methods>
-          <include name="Auto_SWAPI_GET_Base_Test_001"/>
-          <include name="Auto_Swapi_GET_ID_TEST_OO2"/>
+          <include name="Auto_SWAPI_GET_ALL_Planets"/>
         </methods>
-      </class> <!-- com.swapi.tests.Task1_Get_Planets_By_ID -->
+      </class> <!-- com.swapi.tests.Task2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,7 +3,6 @@ package com.swapi.tests;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.ParseException;
 import org.apache.http.client.ClientProtocolException;
@@ -13,6 +12,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
+import com.mongo.connections.MongoDBJDBC;
 import com.swapi.dto.Films;
 import com.swapi.dto.Planet;
 import com.swapi.dto.Residents;
@@ -71,28 +71,38 @@ public class Task2 extends RestAPITester {
 				lstPlanets.add(objPlanet);
 			}
 		} while (!strNextElmt.equalsIgnoreCase("null"));
-
-		for (Planet objPlanetTmp : lstPlanets) {
+		
+		// BELOW STATEMENTS ARE JUST FOR PRINTING THE VALUES, SO COMMENTED OUT. IF NEEDED, UNCOMMENT
+		
+		/*for (Planet objPlanetTmp : lstPlanets) {
 			System.out.println("Planet Id : " + objPlanetTmp.getiPlanetId());
 			System.out.println("Planet Name : " + objPlanetTmp.getStrPlanetName());
 			System.out.println("Planet Population : " + objPlanetTmp.getlPopulation());
 			System.out.println("Planet Diameter : " + objPlanetTmp.getlDiameter());
+			System.out.println("planet Residents : " + objPlanetTmp.getObjResidents());
 
 			for (Residents objRsdntsTmp : objPlanetTmp.getObjResidents()) {
 				if (objRsdntsTmp != null) {
 					System.out.println("\t" + "Residents Name = " + objRsdntsTmp.getStrName());
 					System.out.println("\t" + "Residents Mass = " + objRsdntsTmp.getiMass());
 					System.out.println("\t" + "Residents Height = " + objRsdntsTmp.getiHeigt());
-
+					
 					for (Films objFilmsTmp : objRsdntsTmp.getObjFilm()) {
 						if (objFilmsTmp != null) {
 							System.out.println("\t" + "\t" + "Film Title = " + objFilmsTmp.getStrTitle());
 						}
 					}
-				}
-			}
+				}				
+			}			
+			
 			System.out.println("\n *************************************** \n");
-		}
+		}*/
+		
+		MongoDBJDBC.createMongoDB("swapi");
+		MongoDBJDBC.insertToMongoDB(lstPlanets);
+		
+		MongoDBJDBC.queryMongoDB();
+		MongoDBJDBC.dropMongoDB();
 	}
 
 	private static Residents getResidents(String residentURL)
@@ -103,7 +113,6 @@ public class Task2 extends RestAPITester {
 
 		String strResult;
 		Residents objResidents;
-		// System.out.println("resident url = "+residentURL);
 		getServiceStatusCode(residentURL);
 		respGETService = getServiceContent();
 		JSONObject jo = new JSONObject(EntityUtils.toString(respGETService.getEntity()));
@@ -126,10 +135,6 @@ public class Task2 extends RestAPITester {
 		String[] arrFilmsUrl = jaFilms.toString().substring(1, iLengthTmp - 1).split(",");
 		List<Films> lstFilms = new ArrayList<>();
 		for (String strFilmsUrl : arrFilmsUrl) {
-			// System.out.println("Film names =
-			// "+strResidentUrl.replaceAll("\"", ""));
-			// objPlanet.setObjResidents(getResidents(strResidentUrl.replaceAll("\"",
-			// "")));
 			lstFilms.add(getFilms(strFilmsUrl.replaceAll("\"", "")));
 		}
 

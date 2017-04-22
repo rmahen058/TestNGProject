@@ -1,9 +1,14 @@
 package com.swapi.dto;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Planet {
+public class Planet implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int iPlanetId;
 	private String strPlanetName;
 	private long lDiameter;
@@ -51,7 +56,5 @@ public class Planet {
 
 	public void setObjResidents(List<Residents> objResidents) {
 		this.objResidents = objResidents;
-	}
-	
-	
+	}	
 }

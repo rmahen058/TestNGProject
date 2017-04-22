@@ -1,9 +1,14 @@
 package com.swapi.dto;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Residents {
+public class Residents implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String strName;
 	private int iHeigt;
 	private String iMass;
