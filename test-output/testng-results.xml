@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="14" passed="13">
+<testng-results skipped="0" failed="0" total="14" passed="14">
   <reporter-output>
     <line>
       <![CDATA[--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001--------------------
@@ -381,18 +381,203 @@
       <![CDATA[HttpResponse Status Code: 404]]>
     </line>
     <line>
-      <![CDATA[Connected to Database: 'swapi']]>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task2.Auto_SWAPI_GET_ALL_Planets--------------------
+]]>
     </line>
     <line>
-      <![CDATA[Collections selected successfully: 'planets']]>
+      <![CDATA[Data Inserted in MongoDB -->]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row1 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row2 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row3 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row4 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row5 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row6 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row7 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row8 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row9 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row10 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row11 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row12 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row13 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row14 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row15 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row16 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row17 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row18 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row19 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row20 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row21 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row22 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row23 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row24 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row25 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row26 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row27 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row28 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row29 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row30 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row31 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row32 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row33 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row34 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row35 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row36 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row37 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row38 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row39 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row40 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row41 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row42 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row43 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row44 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row45 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row46 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row47 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row48 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row49 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row50 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row51 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row52 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row53 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row54 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row55 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row56 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row57 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row58 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row59 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row60 is: ]]>
+    </line>
+    <line>
+      <![CDATA[Document at Row61 is: ]]>
     </line>
   </reporter-output>
-  <suite name="SWAPI Suite" duration-ms="51559" started-at="2017-04-23T06:55:56Z" finished-at="2017-04-23T06:56:47Z">
+  <suite name="SWAPI Suite" duration-ms="74017" started-at="2017-04-23T15:52:51Z" finished-at="2017-04-23T15:54:05Z">
     <groups>
     </groups>
-    <test name="Test SWAPI" duration-ms="51559" started-at="2017-04-23T06:55:56Z" finished-at="2017-04-23T06:56:47Z">
+    <test name="Test SWAPI" duration-ms="74017" started-at="2017-04-23T15:52:51Z" finished-at="2017-04-23T15:54:05Z">
       <class name="com.swapi.tests.Task1_Get_All_Planets">
-        <test-method status="PASS" signature="Auto_SWAPI_GET_Base_Test_001()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_Base_Test_001" duration-ms="1056" started-at="2017-04-23T01:55:56Z" finished-at="2017-04-23T01:55:57Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_Base_Test_001()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_Base_Test_001" duration-ms="1111" started-at="2017-04-23T10:52:51Z" finished-at="2017-04-23T10:52:52Z">
           <reporter-output>
             <line>
               <![CDATA[--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001--------------------
@@ -403,7 +588,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_Base_Test_001 -->
-        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_002()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_002" duration-ms="214" started-at="2017-04-23T01:55:57Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:55:57Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_002()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_002" duration-ms="500" started-at="2017-04-23T10:52:52Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:52Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -415,7 +600,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_ALL_Test_002 -->
-        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_003()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_003" duration-ms="259" started-at="2017-04-23T01:55:57Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:55:57Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_003()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_003" duration-ms="646" started-at="2017-04-23T10:52:52Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:53Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -469,7 +654,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_ALL_Test_003 -->
-        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_004()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_004" duration-ms="138" started-at="2017-04-23T01:55:57Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:55:57Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_004()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_004" duration-ms="236" started-at="2017-04-23T10:52:53Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:53Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -487,7 +672,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_ALL_Test_004 -->
-        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_005()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_005" duration-ms="1592" started-at="2017-04-23T01:55:57Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:55:59Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_005()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_005" duration-ms="2259" started-at="2017-04-23T10:52:53Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:56Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -682,7 +867,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_ALL_Test_005 -->
-        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_006()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_006" duration-ms="245" started-at="2017-04-23T01:55:59Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:55:59Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_006()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_006" duration-ms="157" started-at="2017-04-23T10:52:56Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:56Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -696,68 +881,204 @@
         </test-method> <!-- Auto_SWAPI_GET_ALL_Test_006 -->
       </class> <!-- com.swapi.tests.Task1_Get_All_Planets -->
       <class name="com.swapi.tests.Task2">
-        <test-method status="FAIL" signature="Auto_SWAPI_GET_ALL_Planets()[pri:0, instance:com.swapi.tests.Task2@36d4b5c]" name="Auto_SWAPI_GET_ALL_Planets" duration-ms="46651" started-at="2017-04-23T01:56:01Z" finished-at="2017-04-23T01:56:47Z">
-          <exception class="com.mongodb.MongoException$Network">
-            <message>
-              <![CDATA[can't say something]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[com.mongodb.MongoException$Network: can't say something
-	at com.mongodb.DBTCPConnector.say(DBTCPConnector.java:194)
-	at com.mongodb.DBTCPConnector.say(DBTCPConnector.java:155)
-	at com.mongodb.DBApiLayer$MyCollection.insert(DBApiLayer.java:270)
-	at com.mongodb.DBApiLayer$MyCollection.insert(DBApiLayer.java:226)
-	at com.mongodb.DBCollection.insert(DBCollection.java:75)
-	at com.mongodb.DBCollection.insert(DBCollection.java:59)
-	at com.mongodb.DBCollection.insert(DBCollection.java:104)
-	at com.mongo.connections.MongoDBJDBC.insertToMongoDB(MongoDBJDBC.java:79)
-	at com.swapi.tests.Task2.Auto_SWAPI_GET_ALL_Planets(Task2.java:102)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.io.IOException: couldn't connect to [localhost/127.0.0.1:27017] bc:java.net.ConnectException: Connection refused: connect
-	at com.mongodb.DBPort._open(DBPort.java:214)
-	at com.mongodb.DBPort.go(DBPort.java:107)
-	at com.mongodb.DBPort.go(DBPort.java:84)
-	at com.mongodb.DBPort.say(DBPort.java:79)
-	at com.mongodb.DBTCPConnector.say(DBTCPConnector.java:181)
-	... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- com.mongodb.MongoException$Network -->
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Planets()[pri:0, instance:com.swapi.tests.Task2@36d4b5c]" name="Auto_SWAPI_GET_ALL_Planets" duration-ms="67742" started-at="2017-04-23T10:52:57Z" finished-at="2017-04-23T10:54:05Z">
           <reporter-output>
             <line>
-              <![CDATA[Connected to Database: 'swapi']]>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task2.Auto_SWAPI_GET_ALL_Planets--------------------
+]]>
             </line>
             <line>
-              <![CDATA[Collections selected successfully: 'planets']]>
+              <![CDATA[Data Inserted in MongoDB -->]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row1 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row2 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row3 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row4 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row5 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row6 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row7 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row8 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row9 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row10 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row11 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row12 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row13 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row14 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row15 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row16 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row17 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row18 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row19 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row20 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row21 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row22 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row23 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row24 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row25 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row26 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row27 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row28 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row29 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row30 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row31 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row32 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row33 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row34 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row35 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row36 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row37 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row38 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row39 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row40 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row41 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row42 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row43 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row44 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row45 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row46 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row47 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row48 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row49 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row50 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row51 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row52 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row53 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row54 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row55 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row56 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row57 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row58 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row59 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row60 is: ]]>
+            </line>
+            <line>
+              <![CDATA[Document at Row61 is: ]]>
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_ALL_Planets -->
       </class> <!-- com.swapi.tests.Task2 -->
       <class name="com.swapi.tests.Task1_Get_Planets_By_ID">
-        <test-method status="PASS" signature="Auto_SWAPI_GET_Base_Test_001()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_SWAPI_GET_Base_Test_001" duration-ms="435" started-at="2017-04-23T01:55:59Z" finished-at="2017-04-23T01:56:00Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_Base_Test_001()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_SWAPI_GET_Base_Test_001" duration-ms="226" started-at="2017-04-23T10:52:56Z" finished-at="2017-04-23T10:52:56Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -769,7 +1090,7 @@ Caused by: java.io.IOException: couldn't connect to [localhost/127.0.0.1:27017] 
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_Base_Test_001 -->
-        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO1()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO1" duration-ms="181" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:00Z">
+        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO1()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO1" duration-ms="220" started-at="2017-04-23T10:52:56Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:56Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -781,7 +1102,7 @@ Caused by: java.io.IOException: couldn't connect to [localhost/127.0.0.1:27017] 
             </line>
           </reporter-output>
         </test-method> <!-- Auto_Swapi_GET_ID_TEST_OO1 -->
-        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO2()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO2" duration-ms="149" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:00Z">
+        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO2()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO2" duration-ms="135" started-at="2017-04-23T10:52:56Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:56Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -793,7 +1114,7 @@ Caused by: java.io.IOException: couldn't connect to [localhost/127.0.0.1:27017] 
             </line>
           </reporter-output>
         </test-method> <!-- Auto_Swapi_GET_ID_TEST_OO2 -->
-        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO3()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO3" duration-ms="161" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:00Z">
+        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO3()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO3" duration-ms="194" started-at="2017-04-23T10:52:56Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:56Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -850,7 +1171,7 @@ Caused by: java.io.IOException: couldn't connect to [localhost/127.0.0.1:27017] 
             </line>
           </reporter-output>
         </test-method> <!-- Auto_Swapi_GET_ID_TEST_OO3 -->
-        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO4()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO4" duration-ms="177" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:00Z">
+        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO4()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO4" duration-ms="204" started-at="2017-04-23T10:52:56Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:57Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -862,7 +1183,7 @@ Caused by: java.io.IOException: couldn't connect to [localhost/127.0.0.1:27017] 
             </line>
           </reporter-output>
         </test-method> <!-- Auto_Swapi_GET_ID_TEST_OO4 -->
-        <test-method status="PASS" signature="Auto_SWAPI_GET_ID_Test_005()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_SWAPI_GET_ID_Test_005" duration-ms="118" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:00Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ID_Test_005()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_SWAPI_GET_ID_Test_005" duration-ms="158" started-at="2017-04-23T10:52:57Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:57Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -874,7 +1195,7 @@ Caused by: java.io.IOException: couldn't connect to [localhost/127.0.0.1:27017] 
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_ID_Test_005 -->
-        <test-method status="PASS" signature="Auto_SWAPI_GET_ID_Test_006()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_SWAPI_GET_ID_Test_006" duration-ms="130" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:01Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ID_Test_006()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_SWAPI_GET_ID_Test_006" duration-ms="182" started-at="2017-04-23T10:52:57Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T10:52:57Z">
           <reporter-output>
             <line>
               <![CDATA[

@@ -3,16 +3,18 @@ package com.swapi.dto;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * This class gets ans sets Resident attributes
+ * 
+ * @author rakes
+ */
 public class Residents implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private String strName;
 	private int iHeigt;
 	private String iMass;
-	
+
 	private List<Films> objFilm;
 
 	public String getStrName() {

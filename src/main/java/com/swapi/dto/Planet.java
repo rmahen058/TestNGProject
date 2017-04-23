@@ -3,17 +3,19 @@ package com.swapi.dto;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * This class gets and set Planet attributes
+ * 
+ * @author rakes
+ */
 public class Planet implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private int iPlanetId;
 	private String strPlanetName;
 	private long lDiameter;
 	private long lPopulation;
-	
+
 	private List<Residents> objResidents;
 
 	public int getiPlanetId() {
@@ -31,8 +33,6 @@ public class Planet implements Serializable {
 	public void setStrPlanetName(String strPlanetName) {
 		this.strPlanetName = strPlanetName;
 	}
-
-	
 
 	public long getlDiameter() {
 		return lDiameter;
@@ -56,5 +56,5 @@ public class Planet implements Serializable {
 
 	public void setObjResidents(List<Residents> objResidents) {
 		this.objResidents = objResidents;
-	}	
+	}
 }

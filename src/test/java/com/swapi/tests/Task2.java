@@ -10,6 +10,7 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.mongo.connections.MongoDBJDBC;
@@ -18,13 +19,23 @@ import com.swapi.dto.Planet;
 import com.swapi.dto.Residents;
 import com.swapi.utilities.RestAPITester;
 
+/**
+ * This class consumes Rest API for SWAPI for all planets Inserts data in
+ * MongoDB
+ * 
+ * @author rakes
+ *
+ */
 public class Task2 extends RestAPITester {
 
 	private static HttpResponse respGETService;
+	public static boolean reporterFlag = true;
 
 	@Test
 	public static void Auto_SWAPI_GET_ALL_Planets()
 			throws ClientProtocolException, IOException, ParseException, JSONException {
+		Reporter.log("\n" + "--------------------Start of test: " + Task1_Get_All_Planets.getCurrentMethodName()
+		+ "--------------------" + "\n", reporterFlag);
 
 		String strBaseUrl = "http://swapi.co/api/planets/";
 		int iLength = strBaseUrl.length();
@@ -71,36 +82,40 @@ public class Task2 extends RestAPITester {
 				lstPlanets.add(objPlanet);
 			}
 		} while (!strNextElmt.equalsIgnoreCase("null"));
-		
-		// BELOW STATEMENTS ARE JUST FOR PRINTING THE VALUES, SO COMMENTED OUT. IF NEEDED, UNCOMMENT
-		
-		/*for (Planet objPlanetTmp : lstPlanets) {
-			System.out.println("Planet Id : " + objPlanetTmp.getiPlanetId());
-			System.out.println("Planet Name : " + objPlanetTmp.getStrPlanetName());
-			System.out.println("Planet Population : " + objPlanetTmp.getlPopulation());
-			System.out.println("Planet Diameter : " + objPlanetTmp.getlDiameter());
-			System.out.println("planet Residents : " + objPlanetTmp.getObjResidents());
 
-			for (Residents objRsdntsTmp : objPlanetTmp.getObjResidents()) {
-				if (objRsdntsTmp != null) {
-					System.out.println("\t" + "Residents Name = " + objRsdntsTmp.getStrName());
-					System.out.println("\t" + "Residents Mass = " + objRsdntsTmp.getiMass());
-					System.out.println("\t" + "Residents Height = " + objRsdntsTmp.getiHeigt());
-					
-					for (Films objFilmsTmp : objRsdntsTmp.getObjFilm()) {
-						if (objFilmsTmp != null) {
-							System.out.println("\t" + "\t" + "Film Title = " + objFilmsTmp.getStrTitle());
-						}
-					}
-				}				
-			}			
-			
-			System.out.println("\n *************************************** \n");
-		}*/
-		
-		MongoDBJDBC.createMongoDB("swapi");
+		// BELOW STATEMENTS ARE JUST FOR PRINTING THE VALUES, SO COMMENTED OUT.
+		// IF NEEDED, UNCOMMENT
+
+		/*
+		 * for (Planet objPlanetTmp : lstPlanets) {
+		 * System.out.println("Planet Id : " + objPlanetTmp.getiPlanetId());
+		 * System.out.println("Planet Name : " +
+		 * objPlanetTmp.getStrPlanetName());
+		 * System.out.println("Planet Population : " +
+		 * objPlanetTmp.getlPopulation());
+		 * System.out.println("Planet Diameter : " +
+		 * objPlanetTmp.getlDiameter());
+		 * System.out.println("planet Residents : " +
+		 * objPlanetTmp.getObjResidents());
+		 * 
+		 * for (Residents objRsdntsTmp : objPlanetTmp.getObjResidents()) { if
+		 * (objRsdntsTmp != null) { System.out.println("\t" +
+		 * "Residents Name = " + objRsdntsTmp.getStrName());
+		 * System.out.println("\t" + "Residents Mass = " +
+		 * objRsdntsTmp.getiMass()); System.out.println("\t" +
+		 * "Residents Height = " + objRsdntsTmp.getiHeigt());
+		 * 
+		 * for (Films objFilmsTmp : objRsdntsTmp.getObjFilm()) { if (objFilmsTmp
+		 * != null) { System.out.println("\t" + "\t" + "Film Title = " +
+		 * objFilmsTmp.getStrTitle()); } } } }
+		 * 
+		 * System.out.println("\n *************************************** \n");
+		 * }
+		 */
+
+		MongoDBJDBC.createMongoDB("swapi");		
 		MongoDBJDBC.insertToMongoDB(lstPlanets);
-		
+		Reporter.log("Data Inserted in MongoDB -->", true);
 		MongoDBJDBC.queryMongoDB();
 		MongoDBJDBC.dropMongoDB();
 	}
