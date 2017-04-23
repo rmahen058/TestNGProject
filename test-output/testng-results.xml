@@ -1,62 +1,381 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="7" passed="6">
+<testng-results skipped="0" failed="1" total="14" passed="13">
   <reporter-output>
     <line>
+      <![CDATA[--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001--------------------
+]]>
+    </line>
+    <line>
       <![CDATA[HttpResponse Status Code of  BaseTest: 200]]>
+    </line>
+    <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_ALL_Test_002--------------------
+]]>
     </line>
     <line>
       <![CDATA[HttpResponse Status Code: 200]]>
     </line>
     <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_ALL_Test_003--------------------
+]]>
+    </line>
+    <line>
       <![CDATA[Attributes for the Resource Plannets: ]]>
     </line>
     <line>
-      <![CDATA[films]]>
+      <![CDATA[Attribute: films]]>
     </line>
     <line>
-      <![CDATA[edited]]>
+      <![CDATA[Attribute: edited]]>
     </line>
     <line>
-      <![CDATA[created]]>
+      <![CDATA[Attribute: created]]>
     </line>
     <line>
-      <![CDATA[climate]]>
+      <![CDATA[Attribute: climate]]>
     </line>
     <line>
-      <![CDATA[rotation_period]]>
+      <![CDATA[Attribute: rotation_period]]>
     </line>
     <line>
-      <![CDATA[url]]>
+      <![CDATA[Attribute: url]]>
     </line>
     <line>
-      <![CDATA[population]]>
+      <![CDATA[Attribute: population]]>
     </line>
     <line>
-      <![CDATA[orbital_period]]>
+      <![CDATA[Attribute: orbital_period]]>
     </line>
     <line>
-      <![CDATA[surface_water]]>
+      <![CDATA[Attribute: surface_water]]>
     </line>
     <line>
-      <![CDATA[diameter]]>
+      <![CDATA[Attribute: diameter]]>
     </line>
     <line>
-      <![CDATA[gravity]]>
+      <![CDATA[Attribute: gravity]]>
     </line>
     <line>
-      <![CDATA[name]]>
+      <![CDATA[Attribute: name]]>
     </line>
     <line>
-      <![CDATA[residents]]>
+      <![CDATA[Attribute: residents]]>
     </line>
     <line>
-      <![CDATA[terrain]]>
+      <![CDATA[Attribute: terrain]]>
+    </line>
+    <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_ALL_Test_004--------------------
+]]>
+    </line>
+    <line>
+      <![CDATA[Number of Planets containing character "rd": 2]]>
+    </line>
+    <line>
+      <![CDATA[Name of the planet: Ord Mantell]]>
+    </line>
+    <line>
+      <![CDATA[Name of the planet: Concord Dawn]]>
+    </line>
+    <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_ALL_Test_005--------------------
+]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Alderaan]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Yavin IV]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Hoth]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Dagobah]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Bespin]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Endor]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Naboo]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Coruscant]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Kamino]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Geonosis]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Utapau]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Mustafar]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Kashyyyk]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Polis Massa]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Mygeeto]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Felucia]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Cato Neimoidia]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Saleucami]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Stewjon]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Eriadu]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Corellia]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Rodia]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Nal Hutta]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Dantooine]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Bestine IV]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Ord Mantell]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: unknown]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Trandosha]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Socorro]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Mon Cala]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Chandrila]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Sullust]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Toydaria]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Malastare]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Dathomir]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Ryloth]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Aleen Minor]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Vulpter]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Troiken]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Tund]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Haruun Kal]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Cerea]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Glee Anselm]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Iridonia]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Tholoth]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Iktotch]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Quermia]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Dorin]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Champala]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Mirial]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Serenno]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Concord Dawn]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Zolan]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Ojom]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Skako]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Muunilinst]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Shili]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Kalee]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Umbara]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Tatooine]]>
+    </line>
+    <line>
+      <![CDATA[Planet Name: Jakku]]>
+    </line>
+    <line>
+      <![CDATA[No duplicate Planet Name found.]]>
+    </line>
+    <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_ALL_Test_006--------------------
+]]>
     </line>
     <line>
       <![CDATA[HttpResponse Status Code: 404]]>
     </line>
     <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001--------------------
+]]>
+    </line>
+    <line>
       <![CDATA[HttpResponse Status Code of  BaseTest: 200]]>
+    </line>
+    <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_Swapi_GET_ID_TEST_OO1--------------------
+]]>
+    </line>
+    <line>
+      <![CDATA[HttpResponse Status Code: 200]]>
+    </line>
+    <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_Swapi_GET_ID_TEST_OO2--------------------
+]]>
+    </line>
+    <line>
+      <![CDATA[HttpResponse Status Code: 404]]>
+    </line>
+    <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_Swapi_GET_ID_TEST_OO3--------------------
+]]>
+    </line>
+    <line>
+      <![CDATA[HttpResponse Status Code: 200]]>
+    </line>
+    <line>
+      <![CDATA[Attributes are as below:]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: films]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: edited]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: created]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: climate]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: rotation_period]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: url]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: population]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: orbital_period]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: surface_water]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: diameter]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: gravity]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: name]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: residents]]>
+    </line>
+    <line>
+      <![CDATA[Attribute: terrain]]>
+    </line>
+    <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_Swapi_GET_ID_TEST_OO4--------------------
+]]>
+    </line>
+    <line>
+      <![CDATA[HttpResponse Status Code: 200]]>
+    </line>
+    <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_ID_Test_005--------------------
+]]>
+    </line>
+    <line>
+      <![CDATA[HttpResponse Status Code: 200]]>
+    </line>
+    <line>
+      <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_ID_Test_006--------------------
+]]>
     </line>
     <line>
       <![CDATA[HttpResponse Status Code: 404]]>
@@ -68,76 +387,308 @@
       <![CDATA[Collections selected successfully: 'planets']]>
     </line>
   </reporter-output>
-  <suite name="SWAPI Suite" duration-ms="47815" started-at="2017-04-22T23:07:10Z" finished-at="2017-04-22T23:07:58Z">
+  <suite name="SWAPI Suite" duration-ms="51559" started-at="2017-04-23T06:55:56Z" finished-at="2017-04-23T06:56:47Z">
     <groups>
     </groups>
-    <test name="Test SWAPI" duration-ms="47815" started-at="2017-04-22T23:07:10Z" finished-at="2017-04-22T23:07:58Z">
+    <test name="Test SWAPI" duration-ms="51559" started-at="2017-04-23T06:55:56Z" finished-at="2017-04-23T06:56:47Z">
       <class name="com.swapi.tests.Task1_Get_All_Planets">
-        <test-method status="PASS" signature="Auto_SWAPI_GET_Base_Test_001()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@36d4b5c]" name="Auto_SWAPI_GET_Base_Test_001" duration-ms="1940" started-at="2017-04-22T18:07:10Z" finished-at="2017-04-22T18:07:12Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_Base_Test_001()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_Base_Test_001" duration-ms="1056" started-at="2017-04-23T01:55:56Z" finished-at="2017-04-23T01:55:57Z">
           <reporter-output>
+            <line>
+              <![CDATA[--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001--------------------
+]]>
+            </line>
             <line>
               <![CDATA[HttpResponse Status Code of  BaseTest: 200]]>
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_Base_Test_001 -->
-        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_002()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@36d4b5c]" name="Auto_SWAPI_GET_ALL_Test_002" duration-ms="232" started-at="2017-04-22T18:07:12Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-22T18:07:12Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_002()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_002" duration-ms="214" started-at="2017-04-23T01:55:57Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:55:57Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_ALL_Test_002--------------------
+]]>
+            </line>
             <line>
               <![CDATA[HttpResponse Status Code: 200]]>
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_ALL_Test_002 -->
-        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_003()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@36d4b5c]" name="Auto_SWAPI_GET_ALL_Test_003" duration-ms="267" started-at="2017-04-22T18:07:12Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-22T18:07:13Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_003()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_003" duration-ms="259" started-at="2017-04-23T01:55:57Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:55:57Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_ALL_Test_003--------------------
+]]>
+            </line>
             <line>
               <![CDATA[Attributes for the Resource Plannets: ]]>
             </line>
             <line>
-              <![CDATA[films]]>
+              <![CDATA[Attribute: films]]>
             </line>
             <line>
-              <![CDATA[edited]]>
+              <![CDATA[Attribute: edited]]>
             </line>
             <line>
-              <![CDATA[created]]>
+              <![CDATA[Attribute: created]]>
             </line>
             <line>
-              <![CDATA[climate]]>
+              <![CDATA[Attribute: climate]]>
             </line>
             <line>
-              <![CDATA[rotation_period]]>
+              <![CDATA[Attribute: rotation_period]]>
             </line>
             <line>
-              <![CDATA[url]]>
+              <![CDATA[Attribute: url]]>
             </line>
             <line>
-              <![CDATA[population]]>
+              <![CDATA[Attribute: population]]>
             </line>
             <line>
-              <![CDATA[orbital_period]]>
+              <![CDATA[Attribute: orbital_period]]>
             </line>
             <line>
-              <![CDATA[surface_water]]>
+              <![CDATA[Attribute: surface_water]]>
             </line>
             <line>
-              <![CDATA[diameter]]>
+              <![CDATA[Attribute: diameter]]>
             </line>
             <line>
-              <![CDATA[gravity]]>
+              <![CDATA[Attribute: gravity]]>
             </line>
             <line>
-              <![CDATA[name]]>
+              <![CDATA[Attribute: name]]>
             </line>
             <line>
-              <![CDATA[residents]]>
+              <![CDATA[Attribute: residents]]>
             </line>
             <line>
-              <![CDATA[terrain]]>
+              <![CDATA[Attribute: terrain]]>
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_ALL_Test_003 -->
-        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_006()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@36d4b5c]" name="Auto_SWAPI_GET_ALL_Test_006" duration-ms="102" started-at="2017-04-22T18:07:13Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-22T18:07:13Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_004()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_004" duration-ms="138" started-at="2017-04-23T01:55:57Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:55:57Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_ALL_Test_004--------------------
+]]>
+            </line>
+            <line>
+              <![CDATA[Number of Planets containing character "rd": 2]]>
+            </line>
+            <line>
+              <![CDATA[Name of the planet: Ord Mantell]]>
+            </line>
+            <line>
+              <![CDATA[Name of the planet: Concord Dawn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Auto_SWAPI_GET_ALL_Test_004 -->
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_005()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_005" duration-ms="1592" started-at="2017-04-23T01:55:57Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:55:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_ALL_Test_005--------------------
+]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Alderaan]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Yavin IV]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Hoth]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Dagobah]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Bespin]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Endor]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Naboo]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Coruscant]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Kamino]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Geonosis]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Utapau]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Mustafar]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Kashyyyk]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Polis Massa]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Mygeeto]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Felucia]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Cato Neimoidia]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Saleucami]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Stewjon]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Eriadu]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Corellia]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Rodia]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Nal Hutta]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Dantooine]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Bestine IV]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Ord Mantell]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: unknown]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Trandosha]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Socorro]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Mon Cala]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Chandrila]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Sullust]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Toydaria]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Malastare]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Dathomir]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Ryloth]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Aleen Minor]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Vulpter]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Troiken]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Tund]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Haruun Kal]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Cerea]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Glee Anselm]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Iridonia]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Tholoth]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Iktotch]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Quermia]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Dorin]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Champala]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Mirial]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Serenno]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Concord Dawn]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Zolan]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Ojom]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Skako]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Muunilinst]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Shili]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Kalee]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Umbara]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Tatooine]]>
+            </line>
+            <line>
+              <![CDATA[Planet Name: Jakku]]>
+            </line>
+            <line>
+              <![CDATA[No duplicate Planet Name found.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Auto_SWAPI_GET_ALL_Test_005 -->
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ALL_Test_006()[pri:0, instance:com.swapi.tests.Task1_Get_All_Planets@6d00a15d]" name="Auto_SWAPI_GET_ALL_Test_006" duration-ms="245" started-at="2017-04-23T01:55:59Z" depends-on-methods="com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:55:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_All_Planets.Auto_SWAPI_GET_ALL_Test_006--------------------
+]]>
+            </line>
             <line>
               <![CDATA[HttpResponse Status Code: 404]]>
             </line>
@@ -145,7 +696,7 @@
         </test-method> <!-- Auto_SWAPI_GET_ALL_Test_006 -->
       </class> <!-- com.swapi.tests.Task1_Get_All_Planets -->
       <class name="com.swapi.tests.Task2">
-        <test-method status="FAIL" signature="Auto_SWAPI_GET_ALL_Planets()[pri:0, instance:com.swapi.tests.Task2@2ef5e5e3]" name="Auto_SWAPI_GET_ALL_Planets" duration-ms="44868" started-at="2017-04-22T18:07:13Z" finished-at="2017-04-22T18:07:58Z">
+        <test-method status="FAIL" signature="Auto_SWAPI_GET_ALL_Planets()[pri:0, instance:com.swapi.tests.Task2@36d4b5c]" name="Auto_SWAPI_GET_ALL_Planets" duration-ms="46651" started-at="2017-04-23T01:56:01Z" finished-at="2017-04-23T01:56:47Z">
           <exception class="com.mongodb.MongoException$Network">
             <message>
               <![CDATA[can't say something]]>
@@ -206,20 +757,135 @@ Caused by: java.io.IOException: couldn't connect to [localhost/127.0.0.1:27017] 
         </test-method> <!-- Auto_SWAPI_GET_ALL_Planets -->
       </class> <!-- com.swapi.tests.Task2 -->
       <class name="com.swapi.tests.Task1_Get_Planets_By_ID">
-        <test-method status="PASS" signature="Auto_SWAPI_GET_Base_Test_001()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@548b7f67]" name="Auto_SWAPI_GET_Base_Test_001" duration-ms="206" started-at="2017-04-22T18:07:13Z" finished-at="2017-04-22T18:07:13Z">
+        <test-method status="PASS" signature="Auto_SWAPI_GET_Base_Test_001()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_SWAPI_GET_Base_Test_001" duration-ms="435" started-at="2017-04-23T01:55:59Z" finished-at="2017-04-23T01:56:00Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001--------------------
+]]>
+            </line>
             <line>
               <![CDATA[HttpResponse Status Code of  BaseTest: 200]]>
             </line>
           </reporter-output>
         </test-method> <!-- Auto_SWAPI_GET_Base_Test_001 -->
-        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO2()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@548b7f67]" name="Auto_Swapi_GET_ID_TEST_OO2" duration-ms="160" started-at="2017-04-22T18:07:13Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-22T18:07:13Z">
+        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO1()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO1" duration-ms="181" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:00Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_Swapi_GET_ID_TEST_OO1--------------------
+]]>
+            </line>
+            <line>
+              <![CDATA[HttpResponse Status Code: 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Auto_Swapi_GET_ID_TEST_OO1 -->
+        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO2()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO2" duration-ms="149" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_Swapi_GET_ID_TEST_OO2--------------------
+]]>
+            </line>
             <line>
               <![CDATA[HttpResponse Status Code: 404]]>
             </line>
           </reporter-output>
         </test-method> <!-- Auto_Swapi_GET_ID_TEST_OO2 -->
+        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO3()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO3" duration-ms="161" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_Swapi_GET_ID_TEST_OO3--------------------
+]]>
+            </line>
+            <line>
+              <![CDATA[HttpResponse Status Code: 200]]>
+            </line>
+            <line>
+              <![CDATA[Attributes are as below:]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: films]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: edited]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: created]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: climate]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: rotation_period]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: url]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: population]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: orbital_period]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: surface_water]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: diameter]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: gravity]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: name]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: residents]]>
+            </line>
+            <line>
+              <![CDATA[Attribute: terrain]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Auto_Swapi_GET_ID_TEST_OO3 -->
+        <test-method status="PASS" signature="Auto_Swapi_GET_ID_TEST_OO4()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_Swapi_GET_ID_TEST_OO4" duration-ms="177" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_Swapi_GET_ID_TEST_OO4--------------------
+]]>
+            </line>
+            <line>
+              <![CDATA[HttpResponse Status Code: 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Auto_Swapi_GET_ID_TEST_OO4 -->
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ID_Test_005()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_SWAPI_GET_ID_Test_005" duration-ms="118" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_ID_Test_005--------------------
+]]>
+            </line>
+            <line>
+              <![CDATA[HttpResponse Status Code: 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Auto_SWAPI_GET_ID_Test_005 -->
+        <test-method status="PASS" signature="Auto_SWAPI_GET_ID_Test_006()[pri:0, instance:com.swapi.tests.Task1_Get_Planets_By_ID@7ac7a4e4]" name="Auto_SWAPI_GET_ID_Test_006" duration-ms="130" started-at="2017-04-23T01:56:00Z" depends-on-methods="com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_Base_Test_001" finished-at="2017-04-23T01:56:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+--------------------Start of test: com.swapi.tests.Task1_Get_Planets_By_ID.Auto_SWAPI_GET_ID_Test_006--------------------
+]]>
+            </line>
+            <line>
+              <![CDATA[HttpResponse Status Code: 404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Auto_SWAPI_GET_ID_Test_006 -->
       </class> <!-- com.swapi.tests.Task1_Get_Planets_By_ID -->
     </test> <!-- Test SWAPI -->
   </suite> <!-- SWAPI Suite -->
